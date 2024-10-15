@@ -19,7 +19,7 @@ model.train(
 metrics = model.val(data='data2064.yaml')
 
 # Prediksi pada test set dan simpan hasilnya
-results = model.predict(source='D:/RecycloRobo_ai/Augmented2064/test/images', save=True, save_dir='D:/RecycloRobo_ai/Augmented2064/predictions')
+results = model.predict(source='D:/RecycloRobo_ai/Augmented2064/test/images', save=True)
 
 # Menampilkan hasil prediksi (bounding boxes dan labels)
 # results.show()

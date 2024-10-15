@@ -1,4 +1,4 @@
-path: D:/Recyclorobo_ai/Augmented1875
+path: /kaggle/input/beveragecontainer/Augmented1875
 train: train/images
 val: valid/images
 test: test/images
